@@ -31,6 +31,7 @@ module "network" {
 # Dependency issues. This is not reliable as is. Needs 2 runs
 #   trys to create NSG before RG is finished being created
 #   rewrite without modules. All resources here (define dependencies ?)
+#
 # Fork network
 #   => NSG needs to reference network: output resource group name
 #     use for subnet & nsg
